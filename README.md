@@ -4,7 +4,7 @@ A page to organise our collective thinking around technologies we use, and how t
 
 ## Adding content
 
-To add new entries to the radar, or adjust an existing one, open a PR with an edit to `_data/entries.csv`.
+To add new entries to the radar, or adjust an existing one, open a PR with an edit to [`_data/entries.csv`](https://github.com/dxw/tech-radar/blob/main/_data/entries.csv).
 
 ## Development
 
