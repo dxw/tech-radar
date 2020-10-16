@@ -1,0 +1,7 @@
+title: dxw Tech Radar
+exclude: [vendor]
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout:  main
