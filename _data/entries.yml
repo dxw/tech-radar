@@ -1,0 +1,12 @@
+- name: Technology Radars
+  quadrant: 2
+  ring: 1
+  active: true
+  link:
+  moved: 0
+- name: Ruby
+  quadrant: 0
+  ring: 0
+  active: true
+  link:
+  moved: 0

@@ -9,7 +9,7 @@
 
 The dxw Tech Radar is a list of technologies, complemented by an assessment result, called _ring assignment_. We use four rings with the following semantics:
 
-{% for ring in site.data.rings.rings %}
+{% for ring in site.data.rings %}
 * **{{ ring.name }}** - {{ ring.description }}
 {% endfor %}
 
