@@ -1,5 +1,6 @@
 ---
 ---
+
 <svg id="radar"></svg>
 
 <script>
@@ -29,22 +30,16 @@ radar_visualization({
   // zoomed_quadrant: 0,
   //ENTRIES
   entries: [
+    {% for entry in site.data.entries %}
       {
-        quadrant: 2,
-        ring: 1,
-        label: "Technology Radars",
-        active: true,
-        link: "",
-        moved: 1
+        quadrant: {{ entry.quadrant }},
+        ring: {{ entry.ring }},
+        label: "{{ entry.name }}",
+        active: {{ entry.active }},
+        link: "{{ entry.link }}",
+        moved: {{ entry.moved }}
       },
-      {
-        quadrant: 0,
-        ring: 0,
-        label: "Ruby",
-        active: true,
-        link: "",
-        moved: 0
-      },
+    {% endfor %}
   ]
   //ENTRIES
 });
