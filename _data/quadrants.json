@@ -1,0 +1,8 @@
+{
+  "quadrants": [
+    { "name": "Languages" },
+    { "name": "Infrastructure" },
+    { "name": "Frameworks" },
+    { "name": "Data Management" }
+  ],
+}
