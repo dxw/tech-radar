@@ -10,3 +10,9 @@
   active: true
   link:
   moved: 0
+- name: Bun
+  quadrant: 0
+  ring: 2
+  active: true
+  link: https://bun.sh/
+  moved: 0
